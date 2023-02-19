@@ -1,7 +1,7 @@
 .box_text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: self-start;
     justify-content: center;
     padding: 5rem;
     width: 100%;
@@ -14,10 +14,23 @@
     text-align: left;
     font-family: var(--font-fraunces);
     width: 100%;
+    margin: 1rem 0;
+}
+
+.box_text p {
+    font-size: medium;
+    margin: 1rem 0;
 }
 
 .box_text h5 {
     text-transform: uppercase;
-    width: 100%;
+    width: fit-content;
     font-family: var(--font-fraunces);
+    padding: 0 0.25rem;
+    margin: 1rem 0;
+}
+
+.box_text h5:hover {
+    cursor: pointer;
+    background: linear-gradient(var(--white) 70%, var(--yellow) 71%);
 }
