@@ -4,7 +4,10 @@ const BoxDual = () => {
     console.log('BoxDual');
 
     return (
-        <h1>BoxDual</h1>
+        <div className='box-dual'>
+            <h2>Graphic design</h2>
+            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
     )
 };
 
