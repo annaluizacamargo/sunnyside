@@ -1,3 +1,4 @@
+import BoxText from '../../components/box_text';
 import './style.css';
 
 const TextImg = () => {
@@ -5,7 +6,8 @@ const TextImg = () => {
 
     return (
         <div className='text-img'>
-
+            <BoxText />
+            <img src='../../../images/desktop/image-transform.jpg'></img>
         </div>
     );
 };
