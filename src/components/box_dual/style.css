@@ -1,0 +1,27 @@
+.box-dual {
+    background-image: url(../../../public/images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-color: #9ADACC;
+    min-height: 30rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: var(--cyan-dark);
+}
+
+.box-dual h2 {
+    font-family: var(--font-fraunces);
+    width: 100%;
+    margin: 1rem;
+}
+
+.box-dual p {
+    width: 70%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
