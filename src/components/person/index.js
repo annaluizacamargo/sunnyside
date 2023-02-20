@@ -8,7 +8,7 @@ const Person = (props) => {
 
     return (
         <div className='person'>
-            <img></img>
+            <img src={imgPerson}></img>
             <h4>{textPerson}</h4>
             <h3>{namePerson}</h3>
             <p>{functionPerson}</p>
