@@ -1,11 +1,12 @@
 import './style.css';
 
 const BoxLogo = () => {
-    console.log('BoxLogo');
-
     return (
-        <h1>BoxLogo</h1>
-    )
+        <div className='box-logo'>
+            <h1>BoxLogo</h1>
+            <img src='../../../images/desktop/image-header.jpg'></img>
+        </div>
+    );
 };
 
 export default BoxLogo;
