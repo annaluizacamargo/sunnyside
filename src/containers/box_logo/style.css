@@ -1,6 +1,6 @@
-.box-logo {
-    background-color: red;
-
+.box-logo div {
+    position: absolute;
+    width: 100%;
 }
 
 .box-logo h1 {
@@ -8,6 +8,14 @@
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    margin: 5rem 0;
+    font-size: 3.5rem;
+}
+
+.box-logo img.icon {
+    height: 7rem;
+    width: fit-content;
+    color: var(--white);
 }
 
 .box-logo img {
