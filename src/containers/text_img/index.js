@@ -6,6 +6,7 @@ const TextImg = (props) => {
     const title = props.title;
     const description = props.description;
     const color = props.color;
+    const image = props.img;
 
     return (
         <div className='text-img' style={{ flexDirection: flexDirectionBox }}>
@@ -14,7 +15,7 @@ const TextImg = (props) => {
                 description={description}
                 color={color}
             />
-            <img src='../../../images/desktop/image-transform.jpg'></img>
+            <img src={image}></img>
         </div>
     );
 };
