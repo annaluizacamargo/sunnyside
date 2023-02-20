@@ -1,12 +1,20 @@
 import './style.css';
 
-const BoxDual = () => {
-    console.log('BoxDual');
+const BoxDual = (props) => {
+    const title = props.title;
+    const description = props.description;
+    const textColor = props.color;
+    const imageBackground = props.img;
+
+    const styleBox = {
+        backgroundImage: `url(${imageBackground})`,
+        color: `var(--${textColor}`,
+    }
 
     return (
-        <div className='box-dual'>
-            <h2>Graphic design</h2>
-            <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        <div className='box-dual' style={styleBox}>
+            <h2>{title}</h2>
+            <p>{description}</p>
         </div>
     )
 };
