@@ -1,15 +1,18 @@
 import BoxText from '../../components/box_text';
 import './style.css';
 
-const TextImg = () => {
-    console.log('TextImg');
+const TextImg = (props) => {
+    const flexDirectionBox = props.flex;
+    const title = props.title;
+    const description = props.description;
+    const color = props.color;
 
     return (
-        <div className='text-img'>
-            <BoxText 
-                title='Transform your brand'
-                description='We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.'
-                color='yellow'
+        <div className='text-img' style={{ flexDirection: flexDirectionBox }}>
+            <BoxText
+                title={title}
+                description={description}
+                color={color}
             />
             <img src='../../../images/desktop/image-transform.jpg'></img>
         </div>

@@ -1,6 +1,5 @@
 .text-img {
     display: flex;
-    flex-direction: row;
     justify-content: stretch;
     height: fit-content;
     box-sizing: border-box;
@@ -11,10 +10,9 @@
     height: 100%;
     justify-content: stretch;
     margin: auto 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 .text-img img {
     width: 50%;
 }
-
