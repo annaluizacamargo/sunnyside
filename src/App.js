@@ -1,11 +1,18 @@
 import './App.css';
-import BoxDual from './components/box_dual';
-import BoxText from './components/box_text';
+import HeaderBox from './containers/header';
+import BoxLogo from './containers/box_logo';
 import TextImg from './containers/text_img';
+import ContainerImg from './containers/container_img';
+import BoxTestimonials from './containers/box_testimonials';
+import FooterBox from './containers/footer';
 
 function App() {
   return (
     <div className="App">
+      <HeaderBox />
+
+      <BoxLogo />
+
       <TextImg
         flex='row'
         title='Transform your brand'
@@ -21,6 +28,16 @@ function App() {
         color='red'
         img='../../../images/desktop/image-stand-out.jpg'
       />
+      
+      <ContainerImg />
+
+      <BoxTestimonials />
+
+      <div className='images'>
+
+      </div>
+
+      <FooterBox />
     </div>
   );
 };
