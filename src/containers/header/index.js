@@ -1,11 +1,11 @@
 import './style.css';
 
-const Header = () => {
-    console.log('Header');
+const HeaderBox = () => {
+    console.log('HeaderBox');
 
     return (
-        <h1>Header</h1>
+        <h1>HeaderBox</h1>
     )
 };
 
-export default Header;
+export default HeaderBox;

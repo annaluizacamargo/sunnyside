@@ -1,11 +1,11 @@
 import './style.css';
 
-const Footer = () => {
-    console.log('Footer');
+const FooterBox = () => {
+    console.log('FooterBox');
 
     return (
-        <h1>Footer</h1>
+        <h1>FooterBox</h1>
     )
 };
 
-export default Footer;
+export default FooterBox;
