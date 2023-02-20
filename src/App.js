@@ -34,7 +34,10 @@ function App() {
       <BoxTestimonials />
 
       <div className='images'>
-
+        <img src='../../../images/desktop/image-gallery-milkbottles.jpg'></img>
+        <img src='../../../images/desktop/image-gallery-orange.jpg'></img>
+        <img src='../../../images/desktop/image-gallery-cone.jpg'></img>
+        <img src='../../../images/desktop/image-gallery-sugarcubes.jpg'></img>
       </div>
 
       <FooterBox />
