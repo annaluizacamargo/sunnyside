@@ -1,0 +1,15 @@
+.box-logo {
+    background-color: red;
+
+}
+
+.box-logo h1 {
+    font-family: var(--font-fraunces);
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.box-logo img {
+    width: 100%;
+}
