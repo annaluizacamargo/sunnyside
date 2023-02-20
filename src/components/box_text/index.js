@@ -1,15 +1,28 @@
 import './style.css';
+import { useState } from 'react';
 
-const BoxText = () => {
-    console.log('BoxText');
+const BoxText = (props) => {
+    const title = props.title;
+    const description = props.description;
+    const color = props.color;
+
+    const [bg, setBg] = useState('white');
+    const styleHoverText = {
+        background: `linear-gradient(var(--white) 70%, var(--${bg}) 71%)`,
+    };
+    const hover = (color) => setBg(color);
 
     return (
         <div className='box_text' >
-            <h1>Transform your brand</h1>
-            <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-            <h5>Learn more</h5>
+            <h1>{title}</h1>
+            <p>{description}</p>
+            <h5
+                style={styleHoverText}
+                onMouseEnter={() => hover(color)}
+                onMouseLeave={() => hover('white')}
+            >Learn more</h5>
         </div>
-    )
+    );
 };
 
 export default BoxText;

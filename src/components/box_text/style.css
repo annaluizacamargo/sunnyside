@@ -39,5 +39,4 @@
 
 .box_text h5:hover {
     cursor: pointer;
-    background: linear-gradient(var(--white) 70%, var(--yellow) 71%);
 }
