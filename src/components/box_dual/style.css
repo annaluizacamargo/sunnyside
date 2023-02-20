@@ -11,14 +11,22 @@
     justify-content: flex-end;
 }
 
-.box-dual h2 {
-    font-family: var(--font-fraunces);
-    width: 100%;
-    margin: 1rem;
+.box-dual div {
+    height: 30%;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
-.box-dual p {
-    width: 70%;
-    padding: 0 1rem;
-    margin: 0 auto;
+.box-dual div h2 {
+    font-family: var(--font-fraunces);
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.box-dual div p {
+    margin: 0;
+    font-size: medium;
 }

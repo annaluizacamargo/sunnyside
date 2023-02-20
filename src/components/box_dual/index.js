@@ -15,8 +15,10 @@ const BoxDual = (props) => {
 
     return (
         <div className='box-dual' style={styleBox}>
-            <h2>{title}</h2>
-            <p>{description}</p>
+            <div>
+                <h2>{title}</h2>
+                <p>{description}</p>
+            </div>
         </div>
     );
 };
