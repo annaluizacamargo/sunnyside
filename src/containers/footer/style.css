@@ -1,0 +1,47 @@
+.footer-box {
+    background-color: #90D4C5;
+    margin: 0;
+    padding: 4rem;
+    color: var(--cyan-moderate);
+    text-align: center;
+}
+
+.footer-box h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-box ul.page {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.footer-box ul.page li {
+    margin: 0 1rem;
+    width: 5rem;
+}
+
+.footer-box ul.page li:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+
+.footer-box div.contact {
+    margin-top: 4rem;
+    padding: 0;
+}
+
+.footer-box div.contact svg {
+    margin: 0 0.75rem;
+    font-size: 1.5rem;
+}
+
+.footer-box div.contact svg:hover {
+    cursor: pointer;
+    color: var(--white);
+}
