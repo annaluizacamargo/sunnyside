@@ -7,3 +7,14 @@
 .box-images img {
     width: calc(100% / 4);
 }
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .box-images {
+        flex-wrap: wrap;
+    }
+
+    .box-images img {
+        width: calc(100% / 2);
+    }
+}

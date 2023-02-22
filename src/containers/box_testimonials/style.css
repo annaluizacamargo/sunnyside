@@ -20,6 +20,10 @@
 
 /*Responsividade*/
 @media (max-width: 759px) {
+    .box-testimonials {
+        margin: 0;
+    }
+
     .box-testimonials h5 {
         color: var(--blue-grayish);
         margin: 4rem 0;
