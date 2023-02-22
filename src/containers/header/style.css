@@ -30,6 +30,7 @@ header ul {
 }
 
 header ul li {
+    display: block;
     list-style: none;
     padding: 1rem 1rem;
     margin: 0.25rem;
