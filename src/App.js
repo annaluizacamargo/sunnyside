@@ -3,11 +3,12 @@ import * as React from 'react';
 import HeaderBox from './containers/header';
 import BoxLogo from './containers/box_logo';
 import TextImg from './containers/text_img';
-import ContainerImg from './containers/container_img';
+import ContainerImg from './containers/boxServices';
 import BoxTestimonials from './containers/box_testimonials';
 import BoxImages from './containers/boxProjects';
 import Contact from './containers/contact';
 import BoxProjects from './containers/boxProjects';
+import BoxServices from './containers/boxServices';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
@@ -68,9 +69,9 @@ function App() {
         img={`../../../images/${typeDisplay}/image-stand-out.jpg`}
       />
 
-      <ContainerImg typeDisplay={typeDisplay} />
+      <BoxServices typeDisplay={typeDisplay} />
 
-      <BoxTestimonials typeDisplay={typeDisplay} />
+      <BoxTestimonials />
 
       <BoxProjects typeDisplay={typeDisplay} />
 

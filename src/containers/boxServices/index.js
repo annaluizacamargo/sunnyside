@@ -1,12 +1,12 @@
-import BoxDual from '../../components/box_dual';
+import ContainerTextWithImageBackground from '../../components/txt_img_background';
 import './style.css';
 
-const ContainerImg = (props) => {
+const BoxServices = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
         <div id='services' className='container-img'>
-            <BoxDual
+            <ContainerTextWithImageBackground
                 title='Graphic design'
                 description='Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.'
                 color='cyan-dark'
@@ -14,7 +14,7 @@ const ContainerImg = (props) => {
                 img={`../../../images/${typeDisplay}/image-graphic-design.jpg`}
             />
 
-            <BoxDual
+            <ContainerTextWithImageBackground
                 title='Photography'
                 description='Increase your credibility by getting the most stunning, high-quality photos that improve your business image.'
                 color='blue-dark'
@@ -25,4 +25,4 @@ const ContainerImg = (props) => {
     );
 };
 
-export default ContainerImg;
+export default BoxServices;

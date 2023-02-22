@@ -1,6 +1,6 @@
 import './style.css';
 
-const BoxDual = (props) => {
+const ContainerTextWithImageBackground = (props) => {
     const title = props.title;
     const description = props.description;
     const textColor = props.color;
@@ -27,4 +27,4 @@ const BoxDual = (props) => {
     );
 };
 
-export default BoxDual;
+export default ContainerTextWithImageBackground ;
