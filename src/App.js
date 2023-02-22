@@ -6,6 +6,7 @@ import TextImg from './containers/text_img';
 import ContainerImg from './containers/container_img';
 import BoxTestimonials from './containers/box_testimonials';
 import FooterBox from './containers/footer';
+import BoxImages from './containers/box_images';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
@@ -47,12 +48,7 @@ function App() {
 
       <BoxTestimonials typeDisplay={typeDisplay} />
 
-      <div className='images'>
-        <img src={`../../../images/${typeDisplay}/image-gallery-milkbottles.jpg`}></img>
-        <img src={`../../../images/${typeDisplay}/image-gallery-orange.jpg`}></img>
-        <img src={`../../../images/${typeDisplay}/image-gallery-cone.jpg`}></img>
-        <img src={`../../../images/${typeDisplay}/image-gallery-sugarcubes.jpg`}></img>
-      </div>
+      <BoxImages typeDisplay={typeDisplay} />
 
       <FooterBox typeDisplay={typeDisplay} />
     </div>

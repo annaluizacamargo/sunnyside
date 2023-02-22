@@ -1,14 +1,3 @@
 .App {
   text-align: center;
 }
-
-.App .images {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.App .images img {
-  width: calc(100% / 4);
-}

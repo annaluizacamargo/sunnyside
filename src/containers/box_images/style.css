@@ -1,0 +1,9 @@
+.box-images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box-images img {
+    width: calc(100% / 4);
+}
