@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './style.css';
 
-const HeaderBox = () => {
+const HeaderBox = (props) => {
+    const handleClickScroll = props.handleClickScroll;
     const [showMenu, setShowMenu] = useState(false);
 
     function showMenuDisplay() {
@@ -31,10 +32,10 @@ const HeaderBox = () => {
             <div id="arrow-up"></div>
 
             <ul id='ul-menu'>
-                <li>About</li>
-                <li>Services</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li onClick={handleClickScroll}>About</li>
+                <li onClick={handleClickScroll}>Services</li>
+                <li onClick={handleClickScroll}>Projects</li>
+                <li onClick={handleClickScroll}>Contact</li>
             </ul>
         </header>
     );
