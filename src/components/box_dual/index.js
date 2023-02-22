@@ -13,9 +13,13 @@ const BoxDual = (props) => {
         color: `var(--${textColor}`,
     };
 
+    const styleBoxText = {
+        backgroundColor: backgroundColorImage
+    };
+
     return (
         <div className='box-dual' style={styleBox}>
-            <div>
+            <div style={styleBoxText}>
                 <h2>{title}</h2>
                 <p>{description}</p>
             </div>

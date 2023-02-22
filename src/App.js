@@ -30,7 +30,7 @@ function App() {
     if (elementClick == 'about') {
       about.scrollIntoView({ behavior: 'smooth' });
     } else if (elementClick == 'services') {
-      services.scrollIntoView({ behavior: 'smooth' });
+      services.scrollIntoView({ block: "start", behavior: 'smooth' });
     } else if (elementClick == 'projects') {
       projects.scrollIntoView({ behavior: 'smooth' });
     } else if (elementClick == 'contact') {

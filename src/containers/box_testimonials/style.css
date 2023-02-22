@@ -1,5 +1,5 @@
 .box-testimonials {
-    margin: 15% 0;
+    padding: 8% 0;
 }
 
 .box-testimonials h5 {
@@ -21,7 +21,7 @@
 /*Responsividade*/
 @media (max-width: 759px) {
     .box-testimonials {
-        margin: 0;
+        padding-top: 5rem;
     }
 
     .box-testimonials h5 {
