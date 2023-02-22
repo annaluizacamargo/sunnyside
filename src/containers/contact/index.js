@@ -2,8 +2,7 @@ import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
-
-const FooterBox = (props) => {
+const Contact = (props) => {
     const handleClickScroll = props.handleClickScroll;
 
     return (
@@ -24,4 +23,4 @@ const FooterBox = (props) => {
     )
 };
 
-export default FooterBox;
+export default Contact;

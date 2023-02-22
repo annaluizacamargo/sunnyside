@@ -5,8 +5,8 @@ import BoxLogo from './containers/box_logo';
 import TextImg from './containers/text_img';
 import ContainerImg from './containers/container_img';
 import BoxTestimonials from './containers/box_testimonials';
-import FooterBox from './containers/footer';
 import BoxImages from './containers/box_images';
+import Contact from './containers/contact';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
@@ -73,7 +73,7 @@ function App() {
 
       <BoxImages typeDisplay={typeDisplay} />
 
-      <FooterBox typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
+      <Contact typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
     </div>
   );
 };
