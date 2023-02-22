@@ -16,3 +16,16 @@
 .text-img img {
     width: 50%;
 }
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .text-img div.box_text {
+        width: calc(100% - 5rem);
+        margin: 3rem 2rem;
+        box-sizing: border-box;
+    }
+
+    .text-img img {
+        width: 100%;
+    }
+}

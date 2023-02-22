@@ -2,6 +2,7 @@ import BoxText from '../../components/box_text';
 import './style.css';
 
 const TextImg = (props) => {
+    const typeDisplay = props.typeDisplay;
     const flexDirectionBox = props.flex;
     const title = props.title;
     const description = props.description;
@@ -9,7 +10,7 @@ const TextImg = (props) => {
     const image = props.img;
 
     return (
-        <div className='text-img' style={{ flexDirection: flexDirectionBox }}>
+        <div className='text-img' style={{ flexDirection: `${typeDisplay == 'desktop' ? flexDirectionBox : 'column-reverse'}` }}>
             <BoxText
                 title={title}
                 description={description}
