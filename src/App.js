@@ -20,9 +20,27 @@ function App() {
     });
   }, []);
 
+  const handleClickScroll = (event) => {
+    const elementClick = event.target.textContent.toLowerCase();
+    const about = document.getElementById('about');
+    const services = document.getElementById('services');
+    const projects = document.getElementById('projects');
+    const contact = document.getElementById('contact');
+
+    if (elementClick == 'about') {
+      about.scrollIntoView({ behavior: 'smooth' });
+    } else if (elementClick == 'services') {
+      services.scrollIntoView({ behavior: 'smooth' });
+    } else if (elementClick == 'projects') {
+      projects.scrollIntoView({ behavior: 'smooth' });
+    } else if (elementClick == 'contact') {
+      contact.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <div className="App">
-      <HeaderBox typeDisplay={typeDisplay} />
+      <HeaderBox typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
 
       <BoxLogo typeDisplay={typeDisplay} />
 
@@ -50,7 +68,7 @@ function App() {
 
       <BoxImages typeDisplay={typeDisplay} />
 
-      <FooterBox typeDisplay={typeDisplay} />
+      <FooterBox typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
     </div>
   );
 };
