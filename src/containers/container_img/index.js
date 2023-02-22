@@ -5,7 +5,7 @@ const ContainerImg = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
-        <div className='container-img'>
+        <div id='services' className='container-img'>
             <BoxDual
                 title='Graphic design'
                 description='Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.'

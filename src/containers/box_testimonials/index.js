@@ -3,7 +3,7 @@ import './style.css';
 
 const BoxTestimonials = () => {
     return (
-        <div className='box-testimonials'>
+        <div id='projects' className='box-testimonials'>
             <h5>Client testimonials</h5>
             <div>
                 <Person

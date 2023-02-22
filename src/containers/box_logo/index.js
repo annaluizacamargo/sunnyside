@@ -5,7 +5,7 @@ const BoxLogo = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
-        <div className='box-logo'>
+        <div className='box-logo' id='about'>
             <div>
                 <h1>We are creatives</h1>
                 <img src='../../../images/icon-arrow-down.svg' className='icon'></img>
