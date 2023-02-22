@@ -1,4 +1,4 @@
-import BoxText from '../../components/box_text';
+import BoxText from '../box_text';
 import './style.css';
 
 const BoxTxtImg = (props) => {
