@@ -1,4 +1,4 @@
-.header-box {
+header {
     color: var(--white);
     background-color: #3EBFFF;
     display: flex;
@@ -11,16 +11,25 @@
     box-sizing: border-box;
 }
 
-.header-box h1 {
+header .header-box h1 {
     text-transform: lowercase;
 }
 
-.header-box ul {
-    display: flex;
-    flex-direction: row;
+header .header-box button.btn-hamburguer {
+    display: none;
 }
 
-.header-box ul li {
+header .arrow-up {
+    display: none;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+header ul li {
     list-style: none;
     padding: 1rem 1rem;
     margin: 0.25rem;
@@ -30,7 +39,7 @@
     text-align: center;
 }
 
-.header-box ul li:hover {
+header ul li:hover {
     background-color: #6FCDFF;
     color: var(--white);
     cursor: pointer;
@@ -40,10 +49,74 @@
     transition: 1s;
 }
 
-.header-box ul li:active {
+header ul li:active {
     text-transform: uppercase;
     color: var(--blue-very-dark-desaturated);
     background-color: var(--white);
     font-family: var(--font-fraunces);
     font-size: 1rem;
+}
+
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    header {
+        background-color: transparent;
+        display: block;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+    }
+
+    header .header-box h1 {
+        background-color: #3EBFFF;
+        text-align: left;
+        padding: 1.5rem 2rem;
+        margin: 0;
+    }
+
+    header .header-box button.btn-hamburguer {
+        background-color: transparent;
+        border: none;
+        padding: 2.5rem 2rem;
+        position: fixed;
+        right: 0;
+        top: 0;
+        display: block;
+    }
+
+    header .arrow-up {
+        display: none;
+        /* display: block */
+        margin: auto;
+        margin-right: 2rem;
+        width: 0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-bottom: 30px solid var(--white);
+    }
+
+    header ul {
+        display: none;
+        /* inline-block */
+        align-items: center;
+        margin: 0 2rem;
+        padding: 1rem 0;
+        background-color: var(--white);
+        width: calc(100% - 4rem);
+        color: var(--blue-very-dark);
+    }
+
+    header ul li {
+        margin: 0.5rem auto;
+        width: fit-content;
+        box-sizing: border-box;
+        height: 3.5rem;
+    }
+
+    header ul li:hover {
+        background-color: var(--yellow);
+        color: var(--blue-very-dark-desaturated);
+        transition: 0.1s;
+    }
 }
