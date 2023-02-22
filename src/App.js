@@ -27,16 +27,21 @@ function App() {
     const projects = document.getElementById('projects');
     const contact = document.getElementById('contact');
 
-    if (elementClick == 'about') {
-      about.scrollIntoView({ behavior: 'smooth' });
-    } else if (elementClick == 'services') {
-      services.scrollIntoView({ block: "start", behavior: 'smooth' });
-    } else if (elementClick == 'projects') {
-      projects.scrollIntoView({ behavior: 'smooth' });
-    } else if (elementClick == 'contact') {
-      contact.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
+    switch (true) {
+      case (elementClick == 'about'):
+        about.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case (elementClick == 'services'):
+        services.scrollIntoView({ block: "start", behavior: 'smooth' });
+        break;
+      case (elementClick == 'projects'):
+        projects.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case (elementClick == 'contact'):
+        contact.scrollIntoView({ behavior: 'smooth' });
+        break;
+    };
+  };
 
   return (
     <div className="App">
