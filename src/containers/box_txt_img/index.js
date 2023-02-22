@@ -1,7 +1,7 @@
 import BoxText from '../../components/box_text';
 import './style.css';
 
-const TextImg = (props) => {
+const BoxTxtImg = (props) => {
     const typeDisplay = props.typeDisplay;
     const flexDirectionBox = props.flex;
     const title = props.title;
@@ -21,4 +21,4 @@ const TextImg = (props) => {
     );
 };
 
-export default TextImg;
+export default BoxTxtImg;
