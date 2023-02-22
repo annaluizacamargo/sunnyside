@@ -13,7 +13,7 @@ const Person = (props) => {
             <h3>{namePerson}</h3>
             <p>{functionPerson}</p>
         </div>
-    )
+    );
 };
 
 export default Person;

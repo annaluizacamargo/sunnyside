@@ -1,5 +1,5 @@
 .box-testimonials {
-    margin: 10rem 0;
+    margin: 15% 0;
 }
 
 .box-testimonials h5 {
@@ -15,4 +15,23 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    box-sizing: border-box;
+}
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .box-testimonials h5 {
+        color: var(--blue-grayish);
+        margin: 4rem 0;
+        font-family: var(--font-fraunces);
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        font-size: 1rem;
+    }
+
+    .box-testimonials div {
+        flex-direction: column;
+        padding: 0 0.75rem;
+        padding-bottom: 3rem;
+    }
 }
