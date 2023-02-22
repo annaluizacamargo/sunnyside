@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .container-img {
+        flex-direction: column;
+    }
+}

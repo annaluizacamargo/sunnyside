@@ -2,8 +2,9 @@
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    min-height: 30rem;
-    padding: 2rem;
+    min-height: 450px;
+    max-height: 550px;
+    padding: 4rem 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@
 }
 
 .box-dual div {
-    height: 30%;
+    height: fit-content;
     width: 60%;
     box-sizing: border-box;
     margin: 0 auto;
@@ -22,11 +23,23 @@
     font-family: var(--font-fraunces);
     width: 100%;
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     box-sizing: border-box;
 }
 
 .box-dual div p {
     margin: 0;
-    font-size: medium;
+    font-size: 1.1rem;
+}
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .box-dual {
+        min-height: 600px;
+        padding: 3rem 2rem;
+    }
+
+    .box-dual div {
+        width: 100%;
+    }
 }
