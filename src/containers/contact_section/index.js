@@ -2,7 +2,7 @@ import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram, faTwitter, faPinterest } from '@fortawesome/free-brands-svg-icons';
 
-const Contact = (props) => {
+const ContactSection = (props) => {
     const handleClickScroll = props.handleClickScroll;
 
     return (
@@ -23,4 +23,4 @@ const Contact = (props) => {
     )
 };
 
-export default Contact;
+export default ContactSection;

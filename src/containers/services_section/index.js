@@ -1,7 +1,7 @@
-import ContainerTextWithImageBackground from '../../components/txt_img_background';
+import ContainerTextWithImageBackground from '../../components/box_txt_img_background';
 import './style.css';
 
-const BoxServices = (props) => {
+const ServicesSection = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
@@ -25,4 +25,4 @@ const BoxServices = (props) => {
     );
 };
 
-export default BoxServices;
+export default ServicesSection;

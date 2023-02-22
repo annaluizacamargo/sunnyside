@@ -1,16 +1,11 @@
 import './App.css';
 import * as React from 'react';
-import HeaderBox from './containers/header';
-import BoxLogo from './components/box_logo';
-import TextImg from './components/box_txt_img';
-import ContainerImg from './containers/boxServices';
-import BoxTestimonials from './containers/box_testimonials';
-import BoxImages from './containers/boxProjects';
-import Contact from './containers/contact';
-import BoxProjects from './containers/boxProjects';
-import BoxServices from './containers/boxServices';
-import BoxTxtImg from './components/box_txt_img';
-import BoxAbout from './containers/box_about';
+import Header from './containers/header';
+import AboutSection from './containers/about_section';
+import ServicesSection from './containers/services_section';
+import TestimonialsSection from './containers/testimonials_section';
+import ProjectsSection from './containers/projects_section';
+import ContactSection from './containers/contact_section';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
@@ -49,17 +44,17 @@ function App() {
 
   return (
     <div className="App">
-      <HeaderBox typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
+      <Header typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
 
-      <BoxAbout typeDisplay={typeDisplay} />
+      <AboutSection typeDisplay={typeDisplay} />
 
-      <BoxServices typeDisplay={typeDisplay} />
+      <ServicesSection typeDisplay={typeDisplay} />
 
-      <BoxTestimonials />
+      <TestimonialsSection />
 
-      <BoxProjects typeDisplay={typeDisplay} />
+      <ProjectsSection typeDisplay={typeDisplay} />
 
-      <Contact typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
+      <ContactSection typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
     </div>
   );
 };

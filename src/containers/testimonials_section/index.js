@@ -1,7 +1,7 @@
 import Person from '../../components/person';
 import './style.css';
 
-const BoxTestimonials = () => {
+const TestimonialsSection = () => {
     return (
         <div id='projects' className='box-testimonials'>
             <h5>Client testimonials</h5>
@@ -32,4 +32,4 @@ const BoxTestimonials = () => {
     );
 };
 
-export default BoxTestimonials;
+export default TestimonialsSection;

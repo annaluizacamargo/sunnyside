@@ -1,6 +1,6 @@
 import './style.css';
 
-const BoxProjects = (props) => {
+const ProjectsSection = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
@@ -13,4 +13,4 @@ const BoxProjects = (props) => {
     );
 };
 
-export default BoxProjects;
+export default ProjectsSection;

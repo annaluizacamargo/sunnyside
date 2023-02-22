@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './style.css';
 
-const HeaderBox = (props) => {
+const Header = (props) => {
     const [showMenu, setShowMenu] = useState(false);
     const [active, setActive] = useState("");
     const handleClickScroll = props.handleClickScroll;
@@ -66,4 +66,4 @@ const HeaderBox = (props) => {
     );
 };
 
-export default HeaderBox;
+export default Header;

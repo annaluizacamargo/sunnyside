@@ -1,11 +1,11 @@
 import BoxLogo from '../../components/box_logo';
 import BoxTxtImg from '../../components/box_txt_img';
 
-function BoxAbout(props) {
+function AboutSection(props) {
     const typeDisplay = props.typeDisplay;
 
     return (
-        <div className="BoxAbout">
+        <div className="about_section">
             <BoxLogo typeDisplay={typeDisplay} />
 
             <BoxTxtImg
@@ -29,4 +29,4 @@ function BoxAbout(props) {
     );
 };
 
-export default BoxAbout;
+export default AboutSection;
