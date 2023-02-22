@@ -1,23 +1,24 @@
-<a href="https://baymax-vital.vercel.app/"> <img src="https://user-images.githubusercontent.com/100868704/218365682-7be7ee66-ef5a-4a1d-8227-0cde45097a0f.svg"> </a>
+![Group 31](https://user-images.githubusercontent.com/100868704/220735204-b132299b-c4f7-4df5-8a01-d1d37062e4b4.svg)
 
 ## 🚀 Proposta do Desafio
 Bem-vindo(a) ao "sunnyside", projeto construído a partir do challenge proveniente do [FrontendMentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef), onde utilizei o design fornecido pela plataforma e elaborei este web site de forma mais fidedigna possível utilizando React, JavaScript, CSS e HTML, surgindo desta forma o 💻<https://sunnyside-rust.vercel.app/>.
 
-IMAGEM
+![Group 35 (1)](https://user-images.githubusercontent.com/100868704/220737884-c9beb9fc-9375-4e3d-90bb-2bf9559938cb.svg)
+
 <br><br>
 
 
 ## 🎯 Objetivos
 Elaborar um website que se aproxime o máximo possivel da imagem de referência.
 > Todos meus projetos até o momento foram 100% autorais, ou seja, eu que elaborava toda a parte visual do design além do código, e dessa vez resolvi me desafiar a construir algo seguindo como modelo apenas a imagem do resultado final esperado.
+
 <br><br>
 
 
 ## 🧠 Dificuldades e o que aprendi
-Tive a oportunidade de consolidar alguns conceitos de =
-> - JavaScript (arrow function, return e LocalStorage).
-> - CSS (referenciar classes e passar estilos como props de pai para filho).
-> - ReactJS (routes; utilização dos Hook’s; criação de componentes; referenciar função, definindo a função no componente pai para ser executada no componente filho).
+Tive a oportunidade de consolidar e aprender mais sobre alguns conceitos de =
+> - CSS (referenciar classes e passar estilos como props de pai para filho; fazer o modal do menu com o triângulo na parte superior).
+> - ReactJS / JS (utilização dos Hook’s; criação de componentes; referenciar função, definindo a função no componente pai para ser executada no componente filho; utilização so scrollIntoView).
 
 Meu maior aprendizado neste projeto foi referente a utilização do scrollIntoView, bem como a criação do box flutuante em CSS do menu para mobile.
 <br><br>
@@ -38,10 +39,12 @@ Meu maior aprendizado neste projeto foi referente a utilização do scrollIntoVi
 
 
 ## 💻 Rodando o projeto
+Para conferir a versão final é só acessar o link: 💻<https://sunnyside-rust.vercel.app/>.
 Observação: os testes referente ao layout e responsividade foram realizadas somente utilizando o Google Chrome, Android e Iphone.<br>
 
-VÍDEOOO
+https://user-images.githubusercontent.com/100868704/220736833-8926a4a1-0828-43b6-84b2-dcee65b5b577.mp4
 
+https://user-images.githubusercontent.com/100868704/220736858-f4c83968-b5e2-43ee-9701-418eb13a0d84.mp4
 
 <br><br>
 
