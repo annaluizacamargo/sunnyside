@@ -8,8 +8,8 @@
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    margin-top: 11rem;
-    margin-bottom: 5rem;
+    margin-top: 15%;
+    margin-bottom: 4%;
     font-size: 3.5rem;
 }
 
@@ -22,4 +22,13 @@
 .box-logo img {
     width: 100%;
     height: 100%;
+}
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .box-logo h1 {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        font-size: 2.5rem;
+    }
 }
