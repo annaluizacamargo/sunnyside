@@ -5,8 +5,9 @@ import BoxLogo from './containers/box_logo';
 import TextImg from './containers/text_img';
 import ContainerImg from './containers/container_img';
 import BoxTestimonials from './containers/box_testimonials';
-import BoxImages from './containers/box_images';
+import BoxImages from './containers/boxProjects';
 import Contact from './containers/contact';
+import BoxProjects from './containers/boxProjects';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
@@ -71,7 +72,7 @@ function App() {
 
       <BoxTestimonials typeDisplay={typeDisplay} />
 
-      <BoxImages typeDisplay={typeDisplay} />
+      <BoxProjects typeDisplay={typeDisplay} />
 
       <Contact typeDisplay={typeDisplay} handleClickScroll={handleClickScroll} />
     </div>

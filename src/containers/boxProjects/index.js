@@ -1,6 +1,6 @@
 import './style.css';
 
-const BoxImages = (props) => {
+const BoxProjects = (props) => {
     const typeDisplay = props.typeDisplay;
 
     return (
@@ -13,4 +13,4 @@ const BoxImages = (props) => {
     );
 };
 
-export default BoxImages;
+export default BoxProjects;
