@@ -85,7 +85,7 @@ header ul li:active {
         display: block;
     }
 
-    header .arrow-up {
+    header #arrow-up {
         display: none;
         /* display: block */
         margin: auto;
