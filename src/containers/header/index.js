@@ -1,9 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './style.css';
 
 const HeaderBox = (props) => {
-    const handleClickScroll = props.handleClickScroll;
     const [showMenu, setShowMenu] = useState(false);
+    const [active, setActive] = useState("");
+    const handleClickScroll = props.handleClickScroll;
+
+    useEffect(() => {
+        setActive('about');
+    }, [])
+
+    const btnClick = (event) => {
+        setActive(event.target.innerHTML.toLowerCase());
+        handleClickScroll(event);
+    }
 
     function showMenuDisplay() {
         setShowMenu(!showMenu);
@@ -32,10 +42,25 @@ const HeaderBox = (props) => {
             <div id="arrow-up"></div>
 
             <ul id='ul-menu'>
-                <li onClick={handleClickScroll}>About</li>
-                <li onClick={handleClickScroll}>Services</li>
-                <li onClick={handleClickScroll}>Projects</li>
-                <li onClick={handleClickScroll}>Contact</li>
+                <li
+                    className={active === "about" ? "active" : undefined}
+                    onClick={btnClick}
+                >About</li>
+
+                <li
+                    className={active === "services" ? "active" : undefined}
+                    onClick={btnClick}
+                >Services</li>
+
+                <li
+                    className={active === "projects" ? "active" : undefined}
+                    onClick={btnClick}
+                >Projects</li>
+
+                <li
+                    className={active === "contact" ? "active" : undefined}
+                    onClick={btnClick}
+                >Contact</li>
             </ul>
         </header>
     );

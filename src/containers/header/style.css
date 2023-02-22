@@ -50,7 +50,7 @@ header ul li:hover {
     transition: 1s;
 }
 
-header ul li:active {
+header ul li.active {
     text-transform: uppercase;
     color: var(--blue-very-dark-desaturated);
     background-color: var(--white);
