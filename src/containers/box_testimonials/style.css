@@ -37,5 +37,6 @@
         flex-direction: column;
         padding: 0 0.75rem;
         padding-bottom: 3rem;
+        margin: 0 auto;
     }
 }
