@@ -15,7 +15,7 @@
 }
 
 .person h4 {
-    color: var(--blue-very-dark);
+    color: var(--very-dark-grayish-blue);
     margin: 3rem 0;
     line-height: 1.7rem;
 }
@@ -23,14 +23,14 @@
 .person h3 {
     width: 100%;
     font-family: var(--font-fraunces);
-    color: var(--blue-very-dark-desaturated);
+    color: var(--very-dark-desaturated-blue);
     margin: 0;
     margin-bottom: 1rem;
 }
 
 .person p {
     width: 100%;
-    color: var(--blue-dark-grayish);
+    color: var(--dark-grayish-blue);
     font-size: medium;
     margin: 0;
 }

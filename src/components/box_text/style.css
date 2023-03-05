@@ -17,7 +17,7 @@
     width: 100%;
     margin: 1rem 0;
     padding-right: 2rem;
-    color: var(--blue-very-dark-desaturated);
+    color: var(--very-dark-desaturated-blue);
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@
     font-size: medium;
     margin: 1rem 0;
     line-height: 1.6rem;
-    color: var(--blue-dark-grayish);
+    color: var(--dark-grayish-blue);
     font-size: large;
     box-sizing: border-box;
 }
@@ -37,7 +37,7 @@
     padding: 0 0.5rem;
     margin: 1rem 0;
     font-size: medium;
-    color: var(--blue-very-dark-desaturated);
+    color: var(--very-dark-desaturated-blue);
 }
 
 .box_text h5:hover {
