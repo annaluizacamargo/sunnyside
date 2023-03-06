@@ -11,7 +11,7 @@ header {
     width: 100%;
     z-index: 100;
     box-sizing: border-box;
-    padding-bottom: 0.25em;
+    padding-bottom: 1em;
 }
 
 header .header-box .logo {
