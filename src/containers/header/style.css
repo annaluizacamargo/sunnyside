@@ -1,18 +1,22 @@
 header {
+    padding: 0 2rem;
+    padding: 34px 40px 0 40px;
     color: var(--white);
-    background-color: #3EBFFF;
+    background-color: hsl(200deg 100% 62%);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 2rem;
+    align-items: center;
     position: fixed;
     width: 100%;
     z-index: 100;
     box-sizing: border-box;
+    padding-bottom: 0.25em;
 }
 
-header .header-box h1 {
-    text-transform: lowercase;
+header .header-box .logo {
+    height: auto;
+    width: 170px;
 }
 
 header .header-box button.btn-hamburguer {
@@ -24,38 +28,46 @@ header .arrow-up {
 }
 
 header ul {
+    width: 39%;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 
 header ul li {
     display: block;
     list-style: none;
-    padding: 1rem 1rem;
-    margin: 0.25rem;
-    border-radius: 30px;
-    width: 5.5rem;
-    height: 1.25rem;
+    padding: 1em 0.5em;
+    width: calc(25%);
+    border-radius: 28px;
     text-align: center;
+    height: fit-content;
 }
 
 header ul li:hover {
-    background-color: #6FCDFF;
+    padding: 1.25em 0.6em;
+    text-transform: uppercase;
+    font-size: 15px;
     color: var(--white);
+    background-color: #6FCDFF;
     cursor: pointer;
     font-family: var(--font-fraunces);
-    text-transform: uppercase;
-    font-size: 1rem;
-    transition: 1s;
+    margin: 0;
+    font-weight: 900;
 }
 
 header ul li.active {
+    padding: 1.25em 0.6em;
     text-transform: uppercase;
+    font-size: 15px;
     color: var(--very-dark-desaturated-blue);
     background-color: var(--white);
     font-family: var(--font-fraunces);
-    font-size: 1rem;
+    margin: 0;
+    font-weight: 900;
 }
 
 
