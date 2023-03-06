@@ -79,10 +79,16 @@ header ul li.active {
         padding: 0;
         margin: 0;
         overflow: auto;
+        background-color: #3EBFFF;        
     }
 
-    header .header-box h1 {
-        background-color: #3EBFFF;
+    header .header-box {
+        display: flex;
+        height: fit-content;
+        box-sizing: border-box;
+    }
+
+    header .header-box .logo {
         text-align: left;
         padding: 1.5rem 2rem;
         margin: 0;
@@ -91,7 +97,7 @@ header ul li.active {
     header .header-box button.btn-hamburguer {
         background-color: transparent;
         border: none;
-        padding: 2.5rem 2rem;
+        padding: 2.25em 2em;
         position: fixed;
         right: 0;
         top: 0;
