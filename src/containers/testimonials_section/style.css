@@ -22,12 +22,14 @@
 /*Responsividade*/
 @media (max-width: 759px) {
     .box-testimonials {
-        padding-top: 5rem;
+        padding: 65px 30px;
+        padding-bottom: 0;
     }
 
     .box-testimonials h5 {
         color: var(--grayish-blue);
-        margin: 4rem 0;
+        margin: 15px 0;
+        margin-bottom: 60px;
         font-family: var(--font-fraunces);
         text-transform: uppercase;
         letter-spacing: 0.3rem;
