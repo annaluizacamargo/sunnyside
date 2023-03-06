@@ -79,13 +79,14 @@ header ul li.active {
         padding: 0;
         margin: 0;
         overflow: auto;
-        background-color: #3EBFFF;        
+        
     }
 
     header .header-box {
         display: flex;
         height: fit-content;
         box-sizing: border-box;
+        background-color: #3EBFFF;        
     }
 
     header .header-box .logo {
@@ -127,15 +128,17 @@ header ul li.active {
     }
 
     header ul li {
-        margin: 0.5rem auto;
-        width: fit-content;
+        margin: auto;
+        width: 9em;
         box-sizing: border-box;
-        height: 3.5rem;
+        height: fit-content;
     }
 
-    header ul li:hover {
+    header ul li.active, header ul li:hover {
+        margin: 0 auto;
         background-color: var(--yellow);
         color: var(--very-dark-desaturated-blue);
+        border-radius: 2em;
         transition: 0.1s;
     }
 }
