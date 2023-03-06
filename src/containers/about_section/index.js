@@ -22,7 +22,7 @@ function AboutSection(props) {
                 flex='row-reverse'
                 title='Stand out to the right audience'
                 description='Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.'
-                color='red'
+                color='soft-red'
                 img={`../../../images/${typeDisplay}/image-stand-out.jpg`}
             />
         </div>
