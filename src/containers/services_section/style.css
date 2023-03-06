@@ -4,7 +4,7 @@
 }
 
 /*Responsividade*/
-@media (max-width: 759px) {
+@media (max-width: 999px) {
     .container-img {
         flex-direction: column;
     }

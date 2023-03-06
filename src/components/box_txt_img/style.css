@@ -18,7 +18,7 @@
 }
 
 /*Responsividade*/
-@media (max-width: 759px) {
+@media (max-width: 999px) {
     .text-img div.box_text {
         width: calc(100% - 5rem);
         margin: 3rem 2rem;

@@ -20,7 +20,7 @@
 }
 
 /*Responsividade*/
-@media (max-width: 759px) {
+@media (max-width: 999px) {
     .box-testimonials {
         padding: 65px 30px;
         padding-bottom: 0;

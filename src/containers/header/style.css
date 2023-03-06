@@ -72,7 +72,7 @@ header ul li.active {
 
 
 /*Responsividade*/
-@media (max-width: 759px) {
+@media (max-width: 999px) {
     header {
         background-color: transparent;
         display: block;

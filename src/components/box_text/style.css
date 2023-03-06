@@ -49,7 +49,7 @@
 }
 
 /*Responsividade*/
-@media (max-width: 759px) {
+@media (max-width: 999px) {
     .box_text {
         align-items: center;
         padding: 0;

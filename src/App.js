@@ -9,7 +9,7 @@ import ContactSection from './containers/contact_section';
 
 function App() {
   const [typeDisplay, setTypeDisplay] = React.useState('');
-  const breakpoint = 759;
+  const breakpoint = 999;
 
   React.useEffect(() => {
     window.innerWidth > breakpoint ? setTypeDisplay('desktop') : setTypeDisplay('mobile');
