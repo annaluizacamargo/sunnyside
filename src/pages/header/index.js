@@ -34,9 +34,9 @@ const Header = (props) => {
     return (
         <header>
             <div className='header-box'>
-                <img src="../../../images/logo.svg" alt="" className="logo"></img>
+                <img src="../../../images/logo.svg" alt="image logo" className="logo"></img>
                 <button className='btn-hamburguer' onClick={showMenuDisplay}>
-                    <img src='../../../images/icon-hamburger.svg'></img>
+                    <img src='../../../images/icon-hamburger.svg' alt="menu hamburguer" ></img>
                 </button>
             </div>
 

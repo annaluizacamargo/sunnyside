@@ -8,9 +8,9 @@ const BoxLogo = (props) => {
         <div className='box-logo' id='about'>
             <div>
                 <h1>We are creatives</h1>
-                <img src='../../../images/icon-arrow-down.svg' className='icon'></img>
+                <img src='../../../images/icon-arrow-down.svg' alt='icon arrow dow' className='icon'></img>
             </div>
-            <img src={`../../../images/${typeDisplay}/image-header.jpg`}></img>
+            <img alt='image header' src={`../../../images/${typeDisplay}/image-header.jpg` }></img>
         </div>
     );
 };

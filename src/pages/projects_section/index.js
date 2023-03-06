@@ -5,10 +5,10 @@ const ProjectsSection = (props) => {
 
     return (
         <div className='box-images'>
-            <img src={`../../../images/${typeDisplay}/image-gallery-milkbottles.jpg`}></img>
-            <img src={`../../../images/${typeDisplay}/image-gallery-orange.jpg`}></img>
-            <img src={`../../../images/${typeDisplay}/image-gallery-cone.jpg`}></img>
-            <img src={`../../../images/${typeDisplay}/image-gallery-sugarcubes.jpg`}></img>
+            <img alt="image milkbottles" src={`../../../images/${typeDisplay}/image-gallery-milkbottles.jpg`}></img>
+            <img alt="image orange" src={`../../../images/${typeDisplay}/image-gallery-orange.jpg`}></img>
+            <img alt="image cone" src={`../../../images/${typeDisplay}/image-gallery-cone.jpg`}></img>
+            <img alt="image sugarcubes" src={`../../../images/${typeDisplay}/image-gallery-sugarcubes.jpg`}></img>
         </div>
     );
 };

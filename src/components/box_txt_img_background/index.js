@@ -8,7 +8,7 @@ const ContainerTextWithImageBackground = (props) => {
 
     return (
         <div className='box-dual'>
-            <img src={imageBackground}></img>
+            <img alt='image background' src={imageBackground}></img>
             <div style={{ color: textColor }}>
                 <h2>{title}</h2>
                 <p>{description}</p>

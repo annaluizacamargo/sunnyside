@@ -16,7 +16,7 @@ const BoxTxtImg = (props) => {
                 description={description}
                 color={color}
             />
-            <img src={image}></img>
+            <img alt='images about sunnyside' src={image}></img>
         </div>
     );
 };
