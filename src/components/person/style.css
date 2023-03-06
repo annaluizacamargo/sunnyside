@@ -9,15 +9,15 @@
 
 .person img {
     border-radius: 50rem;
-    height: 5rem;
+    height: 72px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 .person h4 {
-    color: var(--very-dark-grayish-blue);
-    margin: 3rem 0;
-    line-height: 1.7rem;
+    color: var(--dark-grayish-blue);
+    margin: 60px 0;
+    line-height: 190%;
 }
 
 .person h3 {
@@ -25,12 +25,13 @@
     font-family: var(--font-fraunces);
     color: var(--very-dark-desaturated-blue);
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5em;
+    font-size: 18px;
 }
 
 .person p {
     width: 100%;
     color: var(--dark-grayish-blue);
-    font-size: medium;
+    font-size: 14px;
     margin: 0;
 }
