@@ -4,22 +4,12 @@ const ContainerTextWithImageBackground = (props) => {
     const title = props.title;
     const description = props.description;
     const textColor = props.color;
-    const backgroundColorImage = props.backgroundColor;
     const imageBackground = props.img;
 
-    const styleBox = {
-        backgroundColor: backgroundColorImage,
-        backgroundImage: `url(${imageBackground})`,
-        color: `var(--${textColor}`,
-    };
-
-    const styleBoxText = {
-        backgroundColor: backgroundColorImage
-    };
-
     return (
-        <div className='box-dual' style={styleBox}>
-            <div style={styleBoxText}>
+        <div className='box-dual'>
+            <img src={imageBackground}></img>
+            <div style={{ color: textColor }}>
                 <h2>{title}</h2>
                 <p>{description}</p>
             </div>
@@ -27,4 +17,4 @@ const ContainerTextWithImageBackground = (props) => {
     );
 };
 
-export default ContainerTextWithImageBackground ;
+export default ContainerTextWithImageBackground;

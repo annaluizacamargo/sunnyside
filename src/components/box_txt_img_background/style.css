@@ -1,34 +1,48 @@
 .box-dual {
-    background-repeat: no-repeat;
-    background-size: 100%;
     width: 100%;
-    height: 550px;
-    padding: 4rem 0;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    position: relative;
+    display: inline-block;
+
+}
+
+.box-dual img {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    top: 0;
+    width: 100%;
+    z-index: -1;
 }
 
 .box-dual div {
-    height: fit-content;
-    width: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 25%;
+    padding-bottom: 60px;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
-.box-dual div h2 {
+.box-dual h2 {
     font-family: var(--font-fraunces);
     width: 100%;
-    margin: 0;
-    margin-bottom: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1em;
     box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: .54px;
 }
 
-.box-dual div p {
+.box-dual p {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 16.5px;
+    line-height: 170%;
 }
 
 /*Responsividade*/
