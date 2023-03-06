@@ -35,3 +35,23 @@
     font-size: 14px;
     margin: 0;
 }
+
+/*Responsividade*/
+@media (max-width: 759px) {
+    .person {
+        width: 22rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+
+    .person h4 {
+        margin: 35px 0;
+    }
+
+    .person p {
+        margin-bottom: 0.5em;
+    }
+}
