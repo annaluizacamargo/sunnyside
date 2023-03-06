@@ -7,7 +7,7 @@ const ContactSection = (props) => {
 
     return (
         <footer className='footer-box' id='contact'>
-            <h1>sunnyside</h1>
+            <img src='../../../images/logo.svg'></img>
             <ul className='page'>
                 <li onClick={handleClickScroll} value='about' >About</li>
                 <li onClick={handleClickScroll} value='services' >Services</li>

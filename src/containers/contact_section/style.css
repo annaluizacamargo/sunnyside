@@ -1,14 +1,14 @@
 .footer-box {
     background-color: #90D4C5;
     margin: 0;
-    padding: 4rem;
+    padding: 70px 0;
     color: var(--dark-moderate-cyan);
     text-align: center;
 }
 
-.footer-box h1 {
-    margin: 0;
-    padding: 0;
+.footer-box img {
+    height: 32px;
+    filter: invert(35%) sepia(53%) saturate(456%) hue-rotate(119deg) brightness(50%) contrast(80%);
 }
 
 .footer-box ul.page {
@@ -17,8 +17,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0;
     padding: 0;
+    margin: 45px 0 90px;
 }
 
 .footer-box ul.page li {
