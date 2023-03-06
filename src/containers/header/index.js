@@ -5,6 +5,7 @@ const Header = (props) => {
     const [showMenu, setShowMenu] = useState(false);
     const [active, setActive] = useState("");
     const handleClickScroll = props.handleClickScroll;
+    const typeDisplay = props.typeDisplay;
 
     useEffect(() => {
         setActive('about');
@@ -16,16 +17,17 @@ const Header = (props) => {
     }
 
     function showMenuDisplay() {
-        setShowMenu(!showMenu);
-        const menuAba = document.getElementById('arrow-up');
-        const menu = document.getElementById('ul-menu');
-
-        if (showMenu) {
-            menuAba.style.display = 'block';
-            menu.style.display = 'inline-block';
-        } else {
-            menuAba.style.display = 'none';
-            menu.style.display = 'none';
+        if (typeDisplay == 'mobile') {
+            setShowMenu(!showMenu);
+            const menuAba = document.getElementById('arrow-up');
+            const menu = document.getElementById('ul-menu');
+            if (showMenu) {
+                menuAba.style.display = 'block';
+                menu.style.display = 'inline-block';
+            } else {
+                menuAba.style.display = 'none';
+                menu.style.display = 'none';
+            };
         };
     };
 
@@ -41,7 +43,7 @@ const Header = (props) => {
             <div id="arrow-up"></div>
 
             <ul id='ul-menu'>
-                <li
+                <li to='/'
                     className={active === "about" ? "active" : undefined}
                     onClick={btnClick}
                 >About</li>
