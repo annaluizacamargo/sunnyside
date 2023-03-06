@@ -20,6 +20,12 @@
   --white: hsl(0, 0%, 100%);
 }
 
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: var(--font-barlow);
