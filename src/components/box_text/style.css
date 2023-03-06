@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: self-start;
     justify-content: center;
-    padding: 8%;
+    padding-left: 8.5em;
+    padding-right: 6em;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -13,30 +14,32 @@
 .box_text h1 {
     text-align: left;
     font-family: var(--font-fraunces);
-    font-size: 2.5rem;
     width: 100%;
     margin: 1rem 0;
     padding-right: 2rem;
     color: var(--very-dark-desaturated-blue);
     box-sizing: border-box;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: .4px;
 }
 
 .box_text p {
-    font-size: medium;
-    margin: 1rem 0;
-    line-height: 1.6rem;
+    margin: 1em 0;
     color: var(--dark-grayish-blue);
-    font-size: large;
     box-sizing: border-box;
+    line-height: 160%;
 }
 
 .box_text h5 {
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     width: fit-content;
     font-family: var(--font-fraunces);
     padding: 0 0.5rem;
-    margin: 1rem 0;
-    font-size: medium;
+    margin: 1.75em 0;
     color: var(--very-dark-desaturated-blue);
 }
 
