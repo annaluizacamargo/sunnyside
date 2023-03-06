@@ -7,16 +7,29 @@
     font-family: var(--font-fraunces);
     color: var(--white);
     text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    margin-top: 15%;
-    margin-bottom: 4%;
-    font-size: 3.5rem;
+    margin-top: 3.55em;
+    margin-bottom: 1.7em;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 11px;
 }
 
 .box-logo img.icon {
-    height: 7rem;
+    height: 6.3em;
     width: fit-content;
     color: var(--white);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .box-logo img {
