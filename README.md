@@ -2,6 +2,8 @@
 
 ## 🚀 Proposta do Desafio
 Bem-vindo(a) ao "sunnyside", projeto construído a partir do challenge proveniente do [FrontendMentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef), onde utilizei o design fornecido pela plataforma e elaborei este web site de forma mais fidedigna possível utilizando React, JavaScript, CSS e HTML, surgindo desta forma o 💻<https://sunnyside-rust.vercel.app/>.
+<br>
+> Para visualizar o resultado final com o comparativo do resultado esperado, basta [clicar aqui!](https://www.frontendmentor.io/solutions/sunnyside-with-reactjs-0wKmZZe3E8)
 
 ![Group 35 (1)](https://user-images.githubusercontent.com/100868704/220737884-c9beb9fc-9375-4e3d-90bb-2bf9559938cb.svg)
 
